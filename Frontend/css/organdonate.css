@@ -1,0 +1,155 @@
+/* General Form Styling */
+.OrganDonation {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.OrganDonation h1 {
+    text-align: center;
+    color: #333;
+}
+
+.OrganDonation p {
+    text-align: center;
+    color: #666;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Fields */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Fixing visibility of dropdown */
+#blood-group {
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+/* Styling for dropdown options */
+#blood-group option {
+    color: black;
+    background-color: white;
+}
+
+/* Label Styling */
+label {
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Organ Selection */
+#step-2 p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Checkboxes */
+#step-2 label {
+    display: block;
+    /* margin-bottom: 5px; */
+}
+
+/* Buttons */
+.btn-next, .btn-back, .btn-submit {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Next & Back Button Styling */
+.btn-next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-next:hover {
+    background-color: #45a049;
+}
+
+.btn-back {
+    background-color: #d9534f;
+    color: white;
+}
+
+.btn-back:hover {
+    background-color: #c9302c;
+}
+
+/* Submit Button */
+.btn-submit {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Character Counter */
+.note-counter {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Hiding Steps Initially */
+.hidden {
+    display: none;
+}
+
+/* Blood Group Container */
+.blood-group-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between label and dropdown */
+    margin-top: 10px;
+}
+
+/* Label Styling */
+.blood-group-container label {
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap; /* Prevents label from breaking into a new line */
+}
+
+/* Dropdown Styling */
+#blood-group {
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#step-3{
+    text-align: center;
+}
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #f9f9f9;
+}

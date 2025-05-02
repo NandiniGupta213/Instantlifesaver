@@ -1,0 +1,210 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="ambulance, emergency">
+    <meta name="description" content="Request ambulance services quickly">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Ambulance Request</title>
+
+    <link rel="stylesheet" href="/Frontend/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Frontend/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/Frontend/css/icofont.css">
+    <link rel="stylesheet" href="/Frontend/css/normalize.css">
+    <link rel="stylesheet" href="/Frontend/css/responsive.css">
+    <link rel="stylesheet" href="/Frontend/css/contact.css">
+    <link rel="stylesheet" href="/Frontend/style.css">
+</head>
+<body>
+
+<div class="preloader">
+    <div class="loader">
+        <div class="loader-outter"></div>
+        <div class="loader-inner"></div>
+        <div class="indicator">
+            <svg width="16px" height="12px">
+                <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+                <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
+            </svg>
+        </div>
+    </div>
+</div>
+
+<div class="breadcrumbs overlay">
+    <div class="container">
+        <div class="bread-inner">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Ambulance Request</h2>
+                    <ul class="bread-list">
+                        <li><a href="/Frontend/index.html">Home</a></li>
+                        <li><i class="icofont-simple-right"></i></li>
+                        <li class="active">Ambulance Request</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="contact-us section">
+    <div class="container">
+        <div class="inner">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-us-form text-center">
+                        <h2>Need an Ambulance?</h2>
+                        <p>Please fill the form below to request ambulance assistance. Our team will reach out immediately.</p>
+
+                        <form class="form" method="POST" action="/ambulance/request" id="ambulance-form">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" name="name" placeholder="Your Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" name="email" placeholder="email" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <input type="text" name="phonenumber" placeholder="Your Phone Number" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <input type="text" name="location" placeholder="Pickup Location" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <textarea name="emergencyDetails" placeholder="Brief Description of Emergency" required></textarea>
+                                    </div>
+                                </div>
+                                <p id="ambulanceResponse"></p>
+                                <div class="col-12">
+                                    <div class="form-group login-btn">
+                                        <button class="btn" type="submit">Request Ambulance</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-footer">
+                        <h2>About Us</h2>
+                        <p>We provide reliable healthcare solutions, including doctor appointments, lab testing, and organ donation facilities. Your health is our priority.</p>
+                        <ul class="social">
+                            <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                            <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                            <li><a href="#"><i class="icofont-instagram"></i></a></li>
+                            <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-footer f-link">
+                        <h2>Quick Links</h2>
+                        <ul>
+                            <li><a href="#Home"><i class="fa fa-caret-right"></i> Home</a></li>
+                            <li><a href="#about"><i class="fa fa-caret-right"></i> About Us</a></li>
+                            <li><a href="#lab-testing"><i class="fa fa-caret-right"></i> Lab Testing</a></li>
+                            <li><a href="#organDonationandRequistion"><i class="fa fa-caret-right"></i> Organ Donation</a></li>
+                            <li><a href="/Frontend/html/contact.html"><i class="fa fa-caret-right"></i> Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-footer">
+                        <h2>Contact</h2>
+                        <p>Contact us to schedule appointments or for more information about our services.</p>
+                        
+                        <p>Email: <a href="mailto:info@yourwebsite.com">info@Instantlifesaver.com</a></p>
+                        <p>Phone: <a href="tel:+123456789">+91 8975643032</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-footer">
+                        <h2>Subscribe</h2>
+                        <p>Stay updated on health tips, organ donation awareness, and our latest services. Subscribe to our newsletter today.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12 text-center">
+                    <p>&copy; 2025 | All Rights Reserved by <strong>NexusWellnessCare</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/Frontend/js/jquery-migrate-3.0.0.js"></script>
+<script src="/Frontend/js/jquery-ui.min.js"></script>
+<script src="/Frontend/js/jquery.counterup.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="/Frontend/js/main.js"></script>
+
+<script>
+    (function($) {
+        $(window).on('load', function() {
+            $('.preloader').addClass('preloader-deactivate');
+        });
+    })(jQuery);
+
+    const ambulanceResponse = document.getElementById("ambulanceResponse");
+
+    document.getElementById('ambulance-form').addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        const formData = new FormData(e.target);
+        const data = Object.fromEntries(formData.entries());
+
+        try {
+            const response = await fetch('http://localhost:5000/ambulance/request', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+            ambulanceResponse.textContent = result.message;
+            ambulanceResponse.style.color = result.success ? "green" : "red";
+
+            if (result.success) {
+                e.target.reset();
+            }
+
+            setTimeout(() => { ambulanceResponse.textContent = ""; }, 2000);
+        } catch (error) {
+            ambulanceResponse.textContent = "An error occurred. Please try again.";
+            ambulanceResponse.style.color = "red";
+            e.target.reset();
+            setTimeout(() => { ambulanceResponse.textContent = ""; }, 2000);
+        }
+    });
+</script>
+
+</body>
+</html>

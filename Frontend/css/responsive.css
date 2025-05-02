@@ -1,0 +1,404 @@
+@media (max-width: 991px) {
+ 
+   .header .logo{
+    font-size: 20px;
+   }
+   .header .logo .plus{
+    font-size: 25px;
+   }
+
+    .schedule {
+        margin-top: 60px !important;
+    }
+    .schedule .schedule-inner .row {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto; 
+        align-items: stretch; 
+    }
+    
+    .schedule .single-schedule {
+        flex: 0 0 90%;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-between; 
+        min-height: 300px;
+    }
+    
+    .lab-icon-background {
+        display: none;
+      }
+    
+    
+    .fun-facts.section{
+        height: 500px;
+        padding:70px 0;
+    }
+    .fun-facts .single-fun{
+        margin:0;
+        /* margin:15px 0; */
+        position:relative;
+    }
+    .fun-facts .single-fun {
+        /* margin: 35px 0; */
+        padding-top: 30px;
+        text-align: center;
+    }
+    .fun-facts .single-fun i {
+        left: 50%;
+        margin-left: -35px;
+        top:0;
+        position:absolute;
+    }
+    .fun-facts .single-fun .content {
+        padding:0;
+    }
+
+    .form-group .btnn {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    .col-lg-12 {
+        max-width: 400px !important; 
+        margin: 0 auto !important; 
+        padding: 10px !important; 
+    }
+    
+    .form-group select {
+        width: 100% !important;
+        height: 35px !important;
+        font-size: 14px !important;
+        padding: 5px !important; 
+    }
+
+.reviews {
+    animation: scroll-up 30s ease-in-out infinite !important;
+}
+
+.footer .single-footer {
+	margin: 20px 0;
+}
+.footer .single-footer h2 {
+	padding-bottom: 20px;
+}
+.footer .footer-top {
+	padding: 65px 0px;
+}
+}
+
+@media (max-width: 600px) {
+    .header .logo {
+        transform: translateX(25px);
+        font-size: 30px;
+
+    }
+    .hamburger {
+        display: block !important;
+    }
+
+    .main-menu .navigation {
+        display: none;
+        position: fixed; 
+        top: 50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 150px;
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 5px 0;
+        z-index: 9999; 
+    }
+
+    .main-menu .navigation ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-menu .navigation ul li {
+        padding: 4px 10px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .main-menu .navigation ul li a {
+        display: block;
+        padding: 4px 8px;
+    }
+
+    .main-menu.active .navigation {
+        display: block;
+        height: auto;
+        max-height: 150px;
+        overflow: hidden;
+    }
+    .next-section {
+        position: relative;
+        z-index: 1;
+    }
+
+    .lab-image img {
+        width: 90%;
+        max-width: 600px;
+        height: auto;
+        margin-top: 40px;
+      }
+    
+      .lab-facilities {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+    
+      .lab-items-left, .lab-items-right {
+        width: 100%;
+        margin: 0;
+      }
+    
+      
+      .lab-item {
+        display: block !important;
+        opacity: 1 !important;
+        transform: none !important;
+    }
+    
+.lab-item img {
+        width: 100%; 
+        max-width: 400px;
+        height: auto;
+}
+    
+.lab-item.visible {
+        opacity: 1;
+        transform: translateY(0);
+}
+    
+.lab-icon-background {
+        display: none;
+}
+.schedule {
+    margin-top: 80px !important;
+}
+.schedule .schedule-inner .row {
+    flex-wrap: nowrap; 
+     overflow-x: auto; 
+}
+.schedule .single-schedule {
+        flex: 0 0 90%; 
+}
+
+.fun-facts.section{
+    height: 500px;
+	padding:70px 0;
+}
+.fun-facts .single-fun{
+	margin:0;
+	position:relative;
+}
+.fun-facts .single-fun {
+	padding-top: 30px;
+	text-align: center;
+}
+.fun-facts .single-fun i {
+	left: 50%;
+	margin-left: -35px;
+	top:0;
+	position:absolute;
+}
+.fun-facts .single-fun .content {
+	padding:0;
+}
+    .video-overlay h1 {
+		font-size: 2rem;
+	}
+
+	.reviews p {
+		font-size: 1rem;
+	}
+
+	.reviews-container {
+		width: 80%; 
+	}
+
+    .reviews {
+        animation: scroll-up 40s ease-in-out infinite !important;
+    }
+
+    .tip-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20 !important;
+    }
+
+    .curved-bg-left,
+    .curved-bg-right {
+        width: 100%;
+        border-radius: 50px;
+        padding: 15px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .about-text h3:nth-of-type(2),
+    .about-text h3:nth-of-type(2) + ul { 
+        display: none;
+    }
+
+    .about-text h3:nth-of-type(3),
+    .about-text h3:nth-of-type(3) + p,
+    .about-text h3:nth-of-type(3) + ul {
+        display: block;
+    }
+
+    .about-image img {
+        width: 100%;
+        max-width: 100%;
+        height: 250px !important; 
+        object-fit: cover;
+    }
+.footer .single-footer {
+	margin: 20px 0;
+}
+.footer .single-footer h2 {
+	padding-bottom: 20px;
+}
+.footer .footer-top {
+	padding: 65px 0px;
+}
+.blog .single-news .news-content {
+    padding: 15px;
+}
+
+.blog .single-news .news-body h2 a {
+    font-size: 16px;
+}
+
+.blog .single-news .news-content p {
+    font-size: 12px;
+    line-height: 20px;
+}
+.blog-comments{
+    display: none;
+}
+
+.contact-us .contact-us-form {
+    padding: 20px;
+}
+
+.contact-us .contact-us-form h2 {
+    font-size: 22px;
+}
+
+.contact-us .form .btn {
+    font-size: 14px;
+}
+
+    .form-group .btnn {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    .col-lg-12 {
+        max-width: 100% !important; 
+        margin: 0 auto !important;
+        padding: 10px !important; 
+    }
+    
+    .form-group select {
+        width: 100% !important;
+        height: 35px !important;
+        font-size: 14px !important;
+        padding: 5px !important; 
+    }
+    
+        
+    #step-3 input::placeholder,
+#step-3 textarea::placeholder {
+    font-size: 12px; 
+    color: gray; 
+    opacity: 1; 
+}
+#step-1 input::placeholder,
+#step-1 textarea::placeholder {
+    font-size: 12px; 
+    color: gray; 
+    opacity: 1; 
+}
+.single-slider {
+ margin-top: 130px;
+}
+
+.tip-container {
+    flex-direction: column; 
+    align-items: center;
+}
+
+.curved-bg-left, 
+.curved-bg-right {
+    border-radius: 20px; 
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.curved-bg-left p, 
+.curved-bg-right p {
+    text-align: center; 
+}
+.video video {
+    width: 100%; 
+    height: auto; 
+}
+.reviews p {
+	font-size: 13px !important;
+}
+.reviews {
+	animation: scroll-up 50s ease-in-out infinite;
+  }
+.Feautes {
+    padding: 20px;
+}
+.Feautes {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+}
+.Feautes .section-title h2 {
+    font-size: 20px;
+}
+.donation {
+    padding: 15px;
+}
+.trans {
+    padding: 5px;
+}
+.trans h2 {
+    font-size: 20px;
+}
+.trans p {
+    font-size: 12px;
+}
+.trans .btn {
+    padding: 8px 16px;
+    font-size: 12px;
+}
+.doctor-icon{
+    display: none;
+}
+.section-title h2 {
+    margin-left: -100px;
+    font-size: 15px !important; 
+    white-space: normal;
+}
+.section-title p {
+    margin-left: -100px;
+
+}
+.image img {
+    margin-left: -50px;
+    height: 300px;
+    max-width: 200px !important;
+
+}
+}
