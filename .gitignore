@@ -1,0 +1,16 @@
+# Ignore environment files
+.env
+Frontend/.env
+Backend/.env
+
+# Node modules
+node_modules/
+Frontend/node_modules/
+Backend/node_modules/
+
+# VSCode settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
